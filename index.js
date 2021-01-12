@@ -29,7 +29,7 @@ const server = new ApolloServer({
 
 // arrancar el servidor
 server.listen({port: process.env.PORT || 4000}).then(({url}) => {
-    console.log(`Servidor listo en la url: ${url}`);
+    console.log(`Servidor totalmente listo en la url: ${url}`);
 });
 // server.listen().then(({url}) => {
 //     console.log(`Servidor listo en la url: ${url}`);
