@@ -4,7 +4,7 @@
   "description": "Curso de Graphql",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "node index.js",
     "dev": "nodemon ."
   },
   "author": "Andres Chacon",
